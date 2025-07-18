@@ -17,7 +17,7 @@ Order (1) __________ (1) Product
 ## Installation: 
 ```
 Start with the code either cloned or downloaded as .zip from this repository. 
-Another .zip copy shall be attached via email. Check all __init__ , requirement and settings files before makemigrations.
+Another .zip copy shall be attached via email. Check all __init__ , requirement and settings files before makemigrations. In case of authentication errors, turn off your firewall.
 ```
 
 ```
@@ -45,6 +45,11 @@ You can go back to the user admin page to edit/delete your companies, orders, pr
 You can also export selected products or selected orders as .csv files
 
 ## Demo Video
+
+
+
+https://github.com/user-attachments/assets/5e59afc8-9ade-4af9-9718-03e690c2fbaf
+
 
 
 ## Issues:
