@@ -15,10 +15,17 @@ Order (1) __________ (1) Product
 ``` 
 
 ## Installation: 
-
 ```
 Start with the code either cloned or downloaded as .zip from this repository. 
-Another .zip copy shall be attached via email. 
+Another .zip copy shall be attached via email. Check all __init__ files before makemigrations.
+```
+
+```
+python manage.py makemigrations
+python manage.py migrate
+python manage.py createsuperuser
+python manage.py runserver
+
 ```
 
 ## Test Steps:
