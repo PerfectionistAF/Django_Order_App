@@ -27,7 +27,7 @@ class Order(models.Model):
     id = models.AutoField(primary_key=True)  ###Amend to 1:1 relation, no need for OrderItem
     company = models.ForeignKey(Company, null=True, on_delete=models.CASCADE)
     product = models.ForeignKey(Product, on_delete=models.PROTECT, null=True, blank=True)
-    quantity = models.PositiveIntegerField(default = 1)
+    quantity = models.PositiveIntegerField()
     created_by = models.ForeignKey(User, null=True, on_delete=models.PROTECT)
     created_at = models.DateTimeField(auto_now_add=True) 
     status = models.CharField(max_length=50, choices=STATUS_CHOICES)

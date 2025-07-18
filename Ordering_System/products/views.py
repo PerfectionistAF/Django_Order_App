@@ -14,7 +14,7 @@ def index(request):
     form = ProductForm(request.POST or None)
     if request.method == "POST" and form.is_valid():
         product = form.save(commit=False)
-        product.company = request.user.company.name
+        product.company = request.user.company
         #product.created_by = request.user.name
         product.created_at = timezone.now()
         product.last_updated_at = timezone.now()
